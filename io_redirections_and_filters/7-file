@@ -1,3 +1,8 @@
 #!/bin/bash
+# Create a file named exactly '*\"Best School\"\'*$\?\*\*\*\*\*:) and write 'Best School' into it.
+
+# Define the filename
 filename='*\\"Best School\\"\'*$\?\*\*\*\*\*:)'
+
+# Create the file and write 'Best School' into it
 echo "Best School" > "$filename"
